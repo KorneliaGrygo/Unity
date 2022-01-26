@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class zad1 : MonoBehaviour
 {
-    public float speed = 2.0f;
+    public float speed = 1.0f;
     Rigidbody rigi;
     Vector3 pA = new Vector3(0,0,0);
     Vector3 pB = new Vector3(10,0,0);
