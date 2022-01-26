@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5856836378136446295}
   - component: {fileID: 5856836378136446292}
   - component: {fileID: 8196655910386579521}
+  - component: {fileID: 4286956891719652654}
   m_Layer: 9
   m_Name: Zlote
   m_TagString: Untagged
@@ -98,3 +99,15 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0.054446228}
   serializedVersion: 2
   m_Radius: 0.045553774
+--- !u!114 &4286956891719652654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5856836378136446293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b149c35552d62e40a4240826aa4a728, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

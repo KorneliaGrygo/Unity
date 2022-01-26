@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1713182237080275947}
   - component: {fileID: 1713182237080275946}
   - component: {fileID: 3590875838368798883}
+  - component: {fileID: 7764315104546836804}
   m_Layer: 9
   m_Name: Fioletowe
   m_TagString: Untagged
@@ -98,3 +99,15 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0.05111974}
   serializedVersion: 2
   m_Radius: 0.04888032
+--- !u!114 &7764315104546836804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1713182237080275949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b149c35552d62e40a4240826aa4a728, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
