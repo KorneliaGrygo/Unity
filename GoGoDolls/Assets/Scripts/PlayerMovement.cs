@@ -9,13 +9,16 @@ public class PlayerMovement : MonoBehaviour
     public float runSpeed = 20f;
     bool jump = false;
     bool crouch = false;
+    public Animator animator;
 
     // Update is called once per frame
     void Update()
     {
         horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
+        animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
         if (Input.GetKeyDown(KeyCode.Space)|| Input.GetKeyDown(KeyCode.UpArrow))
         {
+            animator.SetBool("isJump", true);
             jump = true;
         }
         if (Input.GetKeyDown(KeyCode.DownArrow))
@@ -24,6 +27,7 @@ public class PlayerMovement : MonoBehaviour
         }
         else if (Input.GetKeyUp(KeyCode.DownArrow))
         {
+            animator.SetBool("IsCrouch", true);
             crouch = false;
         }
     }
@@ -33,5 +37,14 @@ public class PlayerMovement : MonoBehaviour
         controller2D.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump);
         jump = false;
         
+    }
+    public void OnLand()
+    {
+        if(jump == false)
+            animator.SetBool("isJump", false);
+    }
+    public void OnCrouch(bool isCrouching)
+    {
+         animator.SetBool("IsCrouch", isCrouching);
     }
 }
