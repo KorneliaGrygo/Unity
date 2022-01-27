@@ -26,4 +26,11 @@ public class AudioManager : MonoBehaviour
             song.audioSource.Play();
 
     }
+    public void Stop()
+    {
+        foreach (var item in ListOfSounds)
+        {
+            item.audioSource.Stop();
+        }
+    }
 }
