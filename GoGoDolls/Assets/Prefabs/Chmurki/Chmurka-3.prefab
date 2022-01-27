@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3802945525068103998}
   - component: {fileID: 2842381998046033209}
-  - component: {fileID: 2273738295021753168}
   - component: {fileID: 929913653234306386}
   m_Layer: 0
   m_Name: chmurka-prefab (1)
@@ -83,32 +82,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &2273738295021753168
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 322080565746113972}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 1
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.0012436807, y: 0.380292}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.9477655, y: 0.18469405}
-  m_EdgeRadius: 0
 --- !u!251 &929913653234306386
 PlatformEffector2D:
   m_ObjectHideFlags: 0
@@ -224,7 +197,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 1
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0012436807, y: 0.380292}
+  m_Offset: {x: -0.005560398, y: 0.380292}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -235,7 +208,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.9477655, y: 0.18469405}
+  m_Size: {x: 2.9283104, y: 0.18469405}
   m_EdgeRadius: 0
 --- !u!251 &3397932085823437742
 PlatformEffector2D:
@@ -356,7 +329,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: chmurka-prefab
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1611448189238576844, guid: ff576096a2e6d0d44bb1c5e5baf205e9, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ff576096a2e6d0d44bb1c5e5baf205e9, type: 3}
 --- !u!4 &478742845777263824 stripped
 Transform:
