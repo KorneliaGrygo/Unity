@@ -2334,7 +2334,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.150777, y: 3.8999996, z: -6}
+  m_LocalPosition: {x: -6.9135113, y: 3.8999996, z: -6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1739826991}
@@ -5854,26 +5854,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ListOfSounds:
   - clip: {fileID: 8300000, guid: 686dcd8b39034ed418eefb024ef40fb6, type: 3}
-    volume: 0.202
-    pitch: 0.661
+    volume: 0.22
+    pitch: 0.65
     name: Las
     isLooped: 1
     audioSource: {fileID: 0}
   - clip: {fileID: 8300000, guid: 5699235c11a034341bda15b2ba3184c8, type: 3}
-    volume: 0.169
-    pitch: 0.481
+    volume: 0.14
+    pitch: 0.44
     name: Serduszko
     isLooped: 0
     audioSource: {fileID: 0}
   - clip: {fileID: 8300000, guid: dbe478e4f3c80f54ea43d3dd43fb95d8, type: 3}
-    volume: 0.169
-    pitch: 0.481
+    volume: 0.14
+    pitch: 0.44
     name: Opos
     isLooped: 0
     audioSource: {fileID: 0}
   - clip: {fileID: 8300000, guid: c204d41aaddef5141b86e1b550d4e480, type: 3}
-    volume: 0.288
-    pitch: 0.87
+    volume: 0.31
+    pitch: 0.9
     name: Krzysio
     isLooped: 1
     audioSource: {fileID: 0}
@@ -6395,7 +6395,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1517605259}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.3992233, y: 1.1799996, z: -6}
+  m_LocalPosition: {x: 2.636489, y: 0.73999953, z: -6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1467441978}
@@ -6427,7 +6427,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1534459721}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -136.12, y: -5.01, z: 22.082014}
+  m_LocalPosition: {x: -135.48, y: -4.65, z: 22.082014}
   m_LocalScale: {x: 0.225854, y: 0.2155322, z: 1}
   m_Children: []
   m_Father: {fileID: 1462839413}
@@ -7647,7 +7647,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1739826989}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.55, y: -2.72, z: 0}
+  m_LocalPosition: {x: 9.55, y: -3.16, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1221626120}
