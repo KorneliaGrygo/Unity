@@ -9,13 +9,12 @@ public class AndzeyScript : MonoBehaviour
     {
         animator = GetComponent<Animator>();
     }
-    void OnTriggerEnter2D(Collision2D collision)
+    void OnCollisionEnter2D(Collision2D collision)
     {
-        collision.collider.enabled = false;
         if(collision.gameObject.layer == (int)Layers.Player)
         {
             FindObjectOfType<AudioManager>().Stop();
-            //FindObjectOfType<AudioManager>().Play("coś");
+            FindObjectOfType<AudioManager>().Play("Krzysio");
             animator.SetBool("Happy",true);
         }
     }

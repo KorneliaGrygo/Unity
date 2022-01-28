@@ -2334,7 +2334,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.656521, y: 3.8999996, z: -6}
+  m_LocalPosition: {x: -6.150777, y: 3.8999996, z: -6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1739826991}
@@ -2908,7 +2908,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 1.7119141, y: 7.0137157}
@@ -5871,6 +5871,12 @@ MonoBehaviour:
     name: Opos
     isLooped: 0
     audioSource: {fileID: 0}
+  - clip: {fileID: 8300000, guid: c204d41aaddef5141b86e1b550d4e480, type: 3}
+    volume: 0.288
+    pitch: 0.87
+    name: Krzysio
+    isLooped: 1
+    audioSource: {fileID: 0}
 --- !u!4 &1353306577 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1713182237080275947, guid: 0a04ccb95a8bb7043b45e9f3a420e6ef,
@@ -6389,7 +6395,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1517605259}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.8934793, y: 1.1799996, z: -6}
+  m_LocalPosition: {x: 3.3992233, y: 1.1799996, z: -6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1467441978}
@@ -7886,7 +7892,7 @@ CircleCollider2D:
   m_GameObject: {fileID: 1739826989}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 946ad98333d679b4388cb74b7577bd90, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0

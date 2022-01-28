@@ -17,7 +17,6 @@ public class AudioManager : MonoBehaviour
             sound.audioSource.pitch = sound.pitch;
             sound.audioSource.loop = sound.isLooped;
         }
-
     }
     public void Play(string name)
     {
